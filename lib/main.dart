@@ -42,7 +42,13 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.fromLTRB(32, 100, 32, 100),
           child: Container(
             width: size.width,
-            color: Color(0xA6FFFFFF),
+            // color: Color(0xA6FFFFFF),
+            decoration: BoxDecoration(
+               color: Color(0xA6FFFFFF),
+              borderRadius: BorderRadius.all(Radius.circular(15)
+
+              )
+            ),
             child: Column(
               // mainAxisAlignment: MainAxisAlignment.center,
               // crossAxisAlignment: CrossAxisAlignment.center,
